@@ -43,7 +43,7 @@ Query Used: from logs | where event.code == 4625
 Findings:
 Source IP: 172.19.0.4 (ex) (Attacker Kali Host).
 Target Account: Administrator.
-Failure Reason: 0xc0000064 — The provided username does not exist on the target system.
+Failure Reason: 0xc0000064 (The provided username does not exist on the target system.)
 
 Conclusion
 This lab successfully demonstrated the visibility provided by a Managed SIEM. By simulating an attack from a dedicated Kali instance, I was able to verify that Huntress accurately captures the source IP, the targeted user, and the specific failure sub-status, providing all necessary context for a SOC Analyst to recommend remediation.
